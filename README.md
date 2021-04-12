@@ -1,2 +1,4 @@
 # Tugas-Pemograman-GUI
-Nama: 
+Nama: Ikadhanny Yudyan Pratama
+NIM : 19104082
+Kelas: S1SE03B
