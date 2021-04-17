@@ -1,4 +1,0 @@
-nama = 'ucok'
-print(nama)
-umur = 20
-print(nama, "berumur", umur, "tahun")
