@@ -1,0 +1,8 @@
+list = ['balon', 'budi', 'ada', 5]
+for item in list : print(item)
+
+list = ['balon', 'budi', 'ada', 5]
+list.insert(1, 'anto')
+print(list)
+del list[2]
+for item in list:print(item)
