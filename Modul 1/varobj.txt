@@ -1,0 +1,17 @@
+count = 7
+tengah = int(count-1)
+for x in range(count):
+  spasi = count - x
+  num = ""
+  sp = ""
+  for s in range(spasi):
+    sp += " "
+  for i in range(x):
+    num += f" {x}"
+  print(sp, num)
+#akhir dari looping x
+tg = ""
+for t in range(tengah):
+  tg += " "
+for b in range(tengah):
+  print(tg, "|||")

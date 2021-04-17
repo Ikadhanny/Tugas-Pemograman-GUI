@@ -1,0 +1,3 @@
+posisi = (300, 300)
+posisi
+Posisi
