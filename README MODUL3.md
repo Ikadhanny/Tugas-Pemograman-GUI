@@ -9,6 +9,8 @@ Enkaspsulasi  adalah pemodelan suatu  permasalahan  program menjadi satu  kelas 
 Pewarisan dalah konsep yang mendefinisikan kelas baru yang diwariskan dari kelas lain yang telah ada. Kelas turunan dari kelas induk memiliki sifat sifat yang sama dengan kelas induknya. Tetapi di dalam pewarisan anda dapat mendefinisikan sifat- sifat baru ke dalam kelas turunannya.
 ### D. Polimorfisme
 Polimorfisme merupakan konsep yang diartikan  sebagai kemampuan suatu objek untuk mengungkapkan banyak hal yang berbeda melalui satu cara yang sama.
+
+
 ## 2. MENDEFINISIKAN KELAS
 Kelas merupakan suatu tipe data yang berisi atribut dan metode.
 
@@ -18,8 +20,12 @@ Objek merupakan instance dari suatu kelas.
 ## 4. ATRIBUT STATIS
 Atribut statis biasa disebut dengan class variable, sedangkan atribut normal disebut dengan instance / object variable. Dengan demikian nilai atribut dapat berbeda untuk masing - masing objek. Atribut statis harus didefinisikan di luar metode dan tanpa diawali dengan self.
 
+![PersegiPanjang](https://user-images.githubusercontent.com/72428738/117142864-655cfa00-adda-11eb-9722-141a87d53658.png)
+
 ## 5. METODE STATIS
 Metode statis dalam python dpat langsung dipanggil dari nama kelasnya, tanpa harus membuat objek terlebih dahulu untuk kelas dari objek yang bersangkutan. Tetapi metode statis dapat juga dipanggil melalui objek kelas. Untuk membuat sebuah metode statis, anda dapat menggunakan statement @staticmethod.
+
+![Aritmatika](https://user-images.githubusercontent.com/72428738/117143293-def4e800-adda-11eb-96c6-b6842adf42b7.png)
 
 ## 6. PEWARISAN
 Pewarisan kelas dalam python dapat didefinisikan dengan syntax berikut.
@@ -29,7 +35,11 @@ namaObjek = namaKelas(parameter kelas)
 ## 7. METODE ABSTRAK DAN KELAS ABSTRAK
 Metode abstrak adalah metode yang tidak memiliki implementasi. Kelas abstrak tidak dapat dibuat objeknya. Metode abstrak yang dimiliki oleh kelas abstrak harus diimplementasikan oleh kelas - kelas turunannya. Untuk mendefinisikan kelas abstrak pada python menggunakan ABCMeta dan @absrtactmethod.
 
+![DuaDimensi](https://user-images.githubusercontent.com/72428738/117144259-ea94de80-addb-11eb-8b48-153a2093b33b.png)
+
 ## 8. POLIMORFISME
 Polimorfisme adalah kemampuan suatu objek untuk melakukan banyak hal menggunakan satu cara yang sama.
+
+![Polimorfisme](https://user-images.githubusercontent.com/72428738/117144047-ac97ba80-addb-11eb-910a-0db578d4643f.png)
 
 ## 9. MEMECAH KODE MENJADI BEBRAPA FILE
